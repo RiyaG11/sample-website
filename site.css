@@ -1,0 +1,525 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.back {
+    background-image: url('images/plane.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 0.8;
+   
+}
+
+.navbar{
+    width: 100%;
+    height: 80px;
+    
+}
+
+.logo{
+     color: whitesmoke;
+     float: left;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     margin-left: 150px;
+     margin-top: 10px;
+     font-size: 20px;
+     
+     
+}
+
+.logo img{
+    margin-left: 18px;
+}
+
+.head1{
+ 
+    float: left;
+    margin-left: 200px;
+    margin-top: 25px;
+} 
+
+.head1 li{
+    display: inline;
+}
+
+.head1 li a{
+    font-size: 18px;
+    margin-top: 40px;
+    margin-left: 20px;
+    text-decoration: none;
+    color: aliceblue;
+    padding: 5px;
+    
+}
+
+.head1 li a:hover{
+    padding: 5px;
+    color: black;
+    background-color: lightgoldenrodyellow;;
+    border-radius: 4px;   
+    cursor: pointer; 
+}
+    
+.head2{
+    width: 200px;
+    height: 25px;
+    float: right;
+    margin-right: 200px;
+    margin-top: 25px;   
+}
+
+.head2 li{
+    display: inline;
+    margin-left: 15px;
+}
+
+.head2 li svg{
+    color: white;
+    height: 20px;
+    width: 20px;
+    text-decoration: none;
+}
+
+.head2 li svg:hover{
+    margin-right: 5px;
+    color: black;
+    background-color: lightgoldenrodyellow; 
+    border-radius: 4px;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+
+.desc h1{
+    margin-top: 150px;
+    color: aliceblue;
+    font-size: 65px;
+    text-align: center;
+}
+
+.desc p{
+    margin-top: 5px;
+    color: aliceblue;
+    font-size: 25px;
+    text-align: center;
+}
+
+.opt{
+    margin-top: 100px; 
+    height: 200px;
+    width: 500px;
+    margin-left: 500px;
+}
+
+.opt a{
+    text-decoration: none;
+    color: aliceblue;
+    border: 2px solid white;
+    border-radius: 7px;
+    padding: 20px;
+    margin-left: 50px;
+    font-weight: bold;
+}
+
+.opt a:hover{
+    padding: 20px;
+    color: black;
+    background-color: lightgoldenrodyellow;
+    border-radius: 7px;
+    border-color: lightgoldenrodyellow; 
+    font-weight: bold;
+    cursor: pointer; 
+}
+
+.card{
+    display: flex;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card1{
+    position: relative;
+    width: 350px;
+    height: 420px;
+    margin-left: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.dee{
+    position: absolute;
+    top: 170px;
+    width: 60px;
+    height: 60px;
+    border-radius: 0 50% 50% 0;
+    background-color: lightsalmon;
+    cursor: pointer;
+}
+
+.card1 h3{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 35px;
+}
+
+.card1 p{
+    text-align: center;
+    font-family: 'Roboto Slab', serif; 
+    margin-top: 25px;
+}
+
+.card1 button{
+    padding: 15px;
+    color: white;
+    background-color: rgb(46, 44, 44); 
+    border-radius: 5px;
+    border: rgb(46, 44, 44);
+    margin-left: 125px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.card1 button:hover{
+    padding: 15px;
+    color: black ;
+    background-color: lightsalmon; 
+    border-radius: 5px;
+    border: lightsalmon; 
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
+    cursor: pointer; 
+}
+
+.forms{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(250, 243, 232);
+}
+
+.info1{
+    width: 380px;
+    background-color: #f2f2f2;
+
+}
+
+.info1 h3{
+    margin-top: 50px;
+    margin-left: 20px;
+    font-size: 25px;
+    color: orangered;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input[type=text]{
+    width: 130px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+input[type=text].bb{
+    width: 280px;
+    height: 40px;
+}
+
+textarea{
+    width: 280px;
+    height: 150px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.info1 button{
+    margin-top: 50px;
+    margin-left: 20px;
+    color: black;
+    background-color: lightsalmon;
+    padding: 7px 10px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 7px;
+    border: 2px lightsalmon;
+    margin-bottom: 5px;
+}
+
+.info1 button:hover{
+    background-color: rgb(99, 97, 97) ;
+    border: 2px rgb(99, 97, 97);
+    color: white;
+    cursor: pointer; 
+}
+
+.info2{
+   margin-top: 50px;
+    width: 600px;
+    height: 550px;
+    font-size: 17px;
+    color: rgb(57, 57, 57);
+}
+
+.info2 p{
+    color: rgb(95, 94, 94);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 40px;
+    font-size: 15px;
+ 
+}
+
+.info2 a{
+    color: rgb(95, 94, 94);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.info2 a:hover{
+    font-size: 15px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.proj{
+    width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.proj1{
+    text-align: center;
+    width: 150px;
+    height: 100px;
+    margin-top: 65px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.proj1 h2{
+    margin-top: 10px;
+    color: orangered;
+}
+
+.ser{
+    padding: 55px;
+    color: rgb(95, 94, 94);
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;  
+}
+
+.ser h1{
+    font-size: 40px;  
+}
+
+.ser1{
+    width: 380px;
+    height: 300px;
+    color: rgb(95, 94, 94);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    text-decoration: none;
+    float: left;
+    margin-top: 125px ;
+    text-align: left;
+    margin-left: 70px;
+}
+
+.ser1 p{
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+.ser1 button{
+    margin-top: 30px;
+    color: white;
+    background-color: rgb(71, 69, 69);
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 2px  rgb(71, 69, 69);
+}
+
+.ser1 button:hover{
+    background-color: skyblue;
+    border: skyblue;
+    color: black;
+    font-weight: bold;
+    cursor: pointer; 
+}
+
+.ser2{
+    margin-top: 20px;
+    float: right;
+    opacity: 0.9;
+    margin-right: 80px;
+}
+
+.last{
+ 
+    background-image: url(images/map.jpg);
+    margin-top: 550px;
+    width: 100%;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    background-attachment: fixed;
+}
+
+.li{
+ 
+    height: 200px;
+
+}
+
+.up{
+
+    float: left;
+    height: 100px;
+    width: 650px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+
+}
+
+.up h1{
+    margin-top: 15px;
+    text-align: center;
+}
+
+
+.mail{
+
+    float: right;
+    height: 80px;
+    width: 550px;
+    margin-right: 60px;
+    margin-top: 10px;
+}
+
+input[type=text].br{
+    width: 280px;
+    height: 40px;
+    border-radius: 7px;
+    border: 2px solid rgb(76, 74, 74) white;
+    border-style: double;
+    background-color: aliceblue;
+    padding: 2px;
+}
+
+.mail button{
+    margin-top: 20px;
+    float: right;
+    color: white;
+    background-color: rgb(71, 69, 69);
+    padding: 9px;
+    font-size: 17px;
+    border-radius: 7px;
+    border: 2px  rgb(71, 69, 69);
+    margin-right: 60px;
+    width: 150px;
+}
+
+.mail button:hover{
+    background-color: lightsalmon;
+    border: lightsalmon;
+    color: black;
+    font-weight: bold;
+    cursor: pointer; 
+}
+
+.l2{
+    display: flex;
+ 
+    height: 400px;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.l2 p svg{
+    height: 14px;
+    width: 14px;
+    text-decoration: none;
+
+}
+
+.l2 p svg:hover{
+    padding: 2px;
+    background-color: lightsalmon;
+    border-radius: 4px;
+    height: 15px;
+    width: 15px;
+    cursor: pointer;
+}
+
+.txt{
+
+    width: 300px;
+    height: 350px;
+    width: 300px;
+    text-align: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.txt h3{
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+.txt img{
+    
+    width: 95px;
+    height: 100px;
+}
+
+.footer{
+
+    height: 50px;
+    
+}
+
+.fl{
+    float: left;
+    height: 30px;
+    width: 550px;
+    margin-top: 5px;
+    margin-left: 120px;
+    font-size: 16px;
+}
+
+.f1 p{
+    font-size: 14px;
+}
+
+.fr{
+    float: right;
+    height: 40px;
+    width: 300px;
+    margin-top: 5px;
+    margin-right: 120px;
+}
+
+.fr svg{
+    height: 20px;
+    width: 20px;
+    text-decoration: none;
+    margin-right: 3px;
+    
+}
+
+.fr svg:hover{
+    padding: 2px;
+    background-color: lightsalmon;
+    border-radius: 4px;
+    height: 22px;
+    width: 22px;
+    cursor: pointer;
+}
